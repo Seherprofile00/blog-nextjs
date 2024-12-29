@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import card01 from "@/app/Public/download (3).jpeg"
-import card02 from "@/app/Public/NextJs Development Company in India.jpeg"
-import card03 from "@/app/Public/download (5) (1).jpeg"
+import card02 from "@/app/Public/download(7).jpeg"
+import card03 from "@/app/Public/download (8).jpeg"
 import card04 from "@/app/Public/download (6).jpeg"
 
 const Card = () => {
@@ -28,20 +28,19 @@ const Card = () => {
     <div className="flex flex-wrap -m-4">
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-400 hover:bg-pink-300  p-6 rounded-lg">
-          <Image
+         <a href="/AI"> <Image
             className="h-40 rounded w-full object-cover object-center mb-6"
             src={card01}
             alt="content"
-          />
-          <h3 className="tracking-widest text-white text-xs font-medium title-font">
-            SUBTITLE
+          /></a>
+          <h3 className="tracking-widest text-red-500 hover:text-red-600 text-xs font-medium title-font">
+          The Evolution of AI
           </h3>
           <h2 className="text-lg text-white font-medium title-font mb-4">
-            Chichen Itza
+          Future of AI
           </h2>
-          <p className="leading-relaxed text-base">
-            Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-            hexagon disrupt edison bulbche.
+          <p className="leading-relaxed text-base ">
+          How Artificial Intelligence Will Change the World.AI is constantly changing our world. Here are just a few ways AI will influence our lives.
           </p>
         </div>
       </div>
@@ -52,7 +51,7 @@ const Card = () => {
             src={card02}
             alt="content"
           />
-          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+          <h3 className="tracking-widest text-red-500 hover:text-red-600 text-xs font-medium title-font">
             SUBTITLE
           </h3>
           <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
@@ -66,22 +65,22 @@ const Card = () => {
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-400 hover:bg-pink-300  p-6 rounded-lg">
-          <Image
+        <a href='/Hermoine'>  <Image
             className="h-40 rounded w-full object-cover object-center mb-6"
             src={card03}
             
+            
             alt="content"
           />
-          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-            SUBTITLE
+          <h3 className="tracking-widest text-red-500 hover:text-red-600 text-xs font-medium title-font">
+           Greatest Witch Of her Age
           </h3>
           <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-            Great Pyramid of Giza
+            Hermoine Granger
           </h2>
           <p className="leading-relaxed text-base">
-            Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-            hexagon disrupt edison bulbche.
-          </p>
+          Hermione Granger was Harry's and Ron's bookish best friend, a Muggle-born student and one of the smartest witches of her generation
+          </p></a>
         </div>
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">

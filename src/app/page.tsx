@@ -6,9 +6,9 @@ import Blog from './Components/Blog'
 const page = () => {
   return (
     <><section className='bg-gray-600'>
-    <Navbar/>
+   
     <Card/>
-    <Blog/>
+    
     </section>
     </>
   )

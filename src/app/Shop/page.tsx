@@ -2,93 +2,188 @@
 
 
 import React from 'react'
-import Image from 'next/image'
-import product from "@/app/"
+
 
 const page = () => {
   return (
     <>
-   <div className="bg-white py-6 sm:py-8 lg:py-12">
-  <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-    {/* text - start */}
-    <div className="mb-10 md:mb-16">
-      <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
-        Collections
-      </h2>
-      <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
-        This is a section of some simple filler text, also known as placeholder
-        text. It shares some characteristics of a real written text but is
-        random or otherwise generated.
+   <section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-col text-center w-full mb-20">
+      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+        Master Cleanse Reliac Heirloom
+      </h1>
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+        Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
+        gentrify, subway tile poke farm-to-table. Franzen you probably haven't
+        heard of them man bun deep jianbing selfies heirloom.
       </p>
     </div>
-    {/* text - end */}
-    <div className="grid gap-6 sm:grid-cols-2">
-      {/* product - start */}
+   
+
+
+
+
+
+{/*  */}
+<div className="bg-white py-6 sm:py-8 lg:py-12">
+  <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <div className="mb-6 flex items-end justify-between gap-4">
+      <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl">
+        Collections
+      </h2>
       <a
         href="#"
-        className="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg"
+        className="inline-block rounded-lg border bg-white px-4 py-2 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base"
       >
-        <img
-          src="https://images.unsplash.com/photo-1620243318482-fdd2affd7a38?auto=format&q=75&fit=crop&w=750"
-          loading="lazy"
-          alt="Photo by Fakurian Design"
-          className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-        />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50" />
-        <div className="relative flex flex-col">
-          <span className="text-gray-300">Home</span>
-          <span className="text-lg font-semibold text-white lg:text-xl">
-            Decoration
-          </span>
-        </div>
+        Show more
       </a>
+    </div>
+    <div className="grid gap-x-4 gap-y-6 sm:grid-cols-2 md:gap-x-6 lg:grid-cols-3 xl:grid-cols-4">
+      {/* product - start */}
+      <div>
+        <a
+          href="#"
+          className="group mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&q=75&fit=crop&crop=top&w=600&h=700"
+            loading="lazy"
+            alt="Photo by Austin Wade"
+            className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+          />
+        </a>
+        <div className="flex flex-col">
+          <span className="text-gray-500">Men</span>
+          <a
+            href="#"
+            className="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl"
+          >
+            Business Causual
+          </a>
+        </div>
+      </div>
       {/* product - end */}
       {/* product - start */}
-      <a
-        href="#"
-        className="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg"
-      >
-        <img
-          src="https://images.unsplash.com/photo-1620241608701-94ef138c7ec9?auto=format&q=75&fit=crop&w=750"
-          loading="lazy"
-          alt="Photo by Fakurian Design"
-          className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-        />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50" />
-        <div className="relative flex flex-col">
-          <span className="text-gray-300">Modern</span>
-          <span className="text-lg font-semibold text-white lg:text-xl">
-            Furniture
-          </span>
+      <div>
+        <a
+          href="#"
+          className="group mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1603344797033-f0f4f587ab60?auto=format&q=75&fit=crop&crop=top&w=600&h=700"
+            loading="lazy"
+            alt="Photo by engin akyurt"
+            className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+          />
+        </a>
+        <div className="flex flex-col">
+          <span className="text-gray-500">Women</span>
+          <a
+            href="#"
+            className="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl"
+          >
+            Summer Season
+          </a>
         </div>
-      </a>
+      </div>
       {/* product - end */}
-       {/* product - start */}
-       <a
-        href="#"
-        className="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg"
-      >
-        <img
-          src="
-https://unsplash.com/photos/white-and-brown-plastic-bottles-nwOip8AOZz0"
-          alt="Photo by Fakurian Design"
-          className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-        />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50" />
-        <div className="relative flex flex-col">
-          <span className="text-gray-300">Modern</span>
-          <span className="text-lg font-semibold text-white lg:text-xl">
-            Furniture
-          </span>
+      {/* product - start */}
+      <div>
+        <a
+          href="#"
+          className="group mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1552668693-d0738e00eca8?auto=format&q=75&fit=crop&crop=top&w=600&h=700"
+            loading="lazy"
+            alt="Photo by Austin Wade"
+            className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+          />
+        </a>
+        <div className="flex flex-col">
+          <span className="text-gray-500">Men</span>
+          <a
+            href="#"
+            className="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl"
+          >
+            Streetwear
+          </a>
         </div>
-      </a>
+      </div>
       {/* product - end */}
+      {/* product - start */}
+      <div>
+        <a
+          href="#"
+          className="group mb-2 block h-96 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:mb-3"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1560269999-cef6ebd23ad3?auto=format&q=75&fit=crop&w=600&h=700"
+            loading="lazy"
+            alt="Photo by Austin Wade"
+            className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+          />
+        </a>
+        <div className="flex flex-col">
+          <span className="text-gray-500">Women</span>
+          <a
+            href="#"
+            className="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl"
+          >
+            Sale
+          </a>
+        </div>
+
+        <div className="flex flex-col">
+        
+          <img
+            src="https://images.unsplash.com/photo-1620243318482-fdd2affd7a38?auto=format&q=75&fit=crop&w=750"
+            loading="lazy"
+            alt="Photo by Austin Wade"
+            className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+          />
+            <span className="text-gray-500">Women</span>
+          <a
+            href="#"
+            className="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl"
+          >
+            Sale
+          </a>
+        </div>
+        {/*  */}
+      </div>
+      {/* product - end */}
+      
+<div className="flex flex-col">
+        
+          <img
+            src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&q=75&fit=crop&crop=top&w=600&h=700"
+            loading="lazy"
+            alt="Photo by Austin Wade"
+            className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+          />
+            <span className="text-gray-500">Women</span>
+          <a
+            href="#"
+            className="text-lg font-bold text-gray-800 transition duration-100 hover:text-gray-500 lg:text-xl"
+          >
+            Sale
+          </a>
+        </div>
+ 
+      
     </div>
   </div>
 </div>
 
-    
-    
+
+        </div>
+        
+     
+</section>
+
+      
     </>
   )
 }

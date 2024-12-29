@@ -14,7 +14,7 @@ const Navbar = () => {
       <nav className="bg-gray-800  md:border-pink-4 text-white p-4 md:flex md:justify-between md:items-center">
         <div className="container mx-3 flex justify-between items-center">
           {/* Logo */}
-          <a href="#" className="text-2xl text-white font-bold">
+          <a href="/" className="text-2xl text-white font-bold">
             AYYAZtech
           </a>
           
@@ -25,7 +25,7 @@ const Navbar = () => {
               isOpen ? "flex" : "hidden"
             } flex-col md:flex md:flex-row  md:static absolute  top-[60px] md:top-auto left-0 bg-gray-800 md:bg-transparent w-full md:w-auto p-4 md:p-4 gap-4`}
           >
-            <Link href="#" className="mx-2 hover:text-pink-300 ">
+            <Link href="/" className="mx-2 hover:text-pink-300 ">
               Home
             </Link>
             <Link href="#" className="mx-2 hover:text-pink-300 ">
