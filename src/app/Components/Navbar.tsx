@@ -37,8 +37,8 @@ const Navbar = () => {
           </div>
 
           {/* Hamburger Menu Button */}
-          <div className="md:hidden flex items-center hover:text-pink-300">
-            <button
+          <div className="md:hidden flex z-[10] relative items-center hover:text-pink-300">
+            <button className=""
               onClick={() => setIsOpen(!isOpen)}
               aria-label="Toggle Navigation"
             >

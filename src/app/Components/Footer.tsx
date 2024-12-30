@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import logo from "@/app/Public/download__3_-removebg-preview.png"
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -8,9 +9,9 @@ const Footer = () => {
     <footer className="text-white body-font bg-gray-800">
   <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left mt-[-90px]">
-      <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+      <Link className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900" href="/">
       <Image  className="  w-full  " src={logo} alt={"hjk"} width={130} height={130}/>
-        </a>
+        </Link>
          
         <span className="ml-3 ml-[80px] sm:w-1/2 text-2xl font-bold">Seharblogs</span>
       
@@ -19,20 +20,20 @@ const Footer = () => {
     <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 className="title-font font-medium text-white hover:underline tracking-widest text-sm mb-3">
-          CATEGORIES
+          PRODUCTS
         </h2>
         <nav className="list-none mb-10">
           <li>
-            <a className="text-white hover:text-pink-300">First Link</a>
+            <a className="text-white hover:text-pink-300">solution</a>
           </li>
           <li>
-            <a className="text-white hover:text-pink-300">Second Link</a>
+            <a className="text-white hover:text-pink-300">pricing</a>
           </li>
           <li>
-            <a className="text-white hover:text-pink-300">Third Link</a>
+            <a className="text-white hover:text-pink-300">Curtomers</a>
           </li>
           <li>
-            <a className="text-white hover:text-pink-300">Fourth Link</a>
+            <a className="text-white hover:text-pink-300">Overview</a>
           </li>
         </nav>
       </div>
@@ -42,36 +43,36 @@ const Footer = () => {
         </h2>
         <nav className="list-none mb-10">
           <li>
-            <a className="text-white hover:text-pink-300">First Link</a>
+            <a className="text-white hover:text-pink-300">blogs</a>
           </li>
           <li>
-            <a className="text-white hover:text-pink-300">Second Link</a>
+            <a className="text-white hover:text-pink-300">services</a>
           </li>
           <li>
-            <a className="text-white hover:text-pink-300">Third Link</a>
+            <a className="text-white hover:text-pink-300">mens wear</a>
           </li>
           <li>
-            <a className="text-white  hover:text-pink-300">Fourth Link</a>
+            <a className="text-white  hover:text-pink-300">womens wear</a>
           </li>
         </nav>
       </div>
       
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 className="title-font font-medium text-white hover:underline tracking-widest text-sm mb-3">
-          CATEGORIES
+          SUPPORT
         </h2>
         <nav className="list-none mb-10">
           <li>
-            <a className="text-white hover:text-pink-300">First Link</a>
+            <a className="text-white hover:text-pink-300">Contact</a>
           </li>
           <li>
-            <a className="text-white hover:text-pink-300">Second Link</a>
+            <a className="text-white hover:text-pink-300">Documentation</a>
           </li>
           <li>
-            <a className="text-white hover:text-pink-300">Third Link</a>
+            <a className="text-white hover:text-pink-300">FAQ</a>
           </li>
           <li>
-            <a className="text-white hover:text-pink-300">Fourth Link</a>
+            <a className="text-white hover:text-pink-300">Terms of services</a>
           </li>
         </nav>
       </div>

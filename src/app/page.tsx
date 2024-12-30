@@ -1,12 +1,11 @@
 import React from 'react'
-import Navbar from './Components/Navbar'
-import Card from './Components/Card'
-import Blog from './Components/Blog'
 
+import Card from './Components/Card'
+import Banner from './Components/banner'
 const page = () => {
   return (
-    <><section className='bg-gray-600'>
-   
+    <><section className='bg-gray-500 pt-[120px]'>
+   <Banner />
     <Card/>
     
     </section>
